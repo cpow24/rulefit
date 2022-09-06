@@ -340,7 +340,7 @@ class RuleFit(BaseEstimator, TransformerMixin):
             exp_rand_tree_size=True,
             model_type='rl',
             Cs=None,
-            cv=3,
+            cv=5,
             tol=0.0001,
             max_iter=None,
             n_jobs=None,
